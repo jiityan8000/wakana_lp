@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>若菜</title>
+    <link rel="stylesheet" href="./style.css">
+    <script>
+        (function (d) {
+            var config = {
+                kitId: 'tle4sqf',
+                scriptTimeout: 3000,
+                async: true
+            },
+                h = d.documentElement, t = setTimeout(function () { h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"; }, config.scriptTimeout), tk = d.createElement("script"), f = false, s = d.getElementsByTagName("script")[0], a; h.className += " wf-loading"; tk.src = 'https://use.typekit.net/' + config.kitId + '.js'; tk.async = true; tk.onload = tk.onreadystatechange = function () { a = this.readyState; if (f || a && a != "complete" && a != "loaded") return; f = true; clearTimeout(t); try { Typekit.load(config) } catch (e) { } }; s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+</head>
+
+<body>
+    <div class="hero">
+        <img class="logo" src="./img/logo.svg" alt="若菜">
+        <img src="./img/hero_bento.png" alt="炊き込みご飯弁当">
+        <p class="copy">美味しいお弁当<br>あります</p>
+        <a href="" class="reserve">予約する</a>
+    </div>
+    <div class="bento">
+        <h2>お弁当</h2>
+        <ul class="bentolist">
+            <li>
+                <a href="">
+                    <img src="./img/bento_1.png" alt="炊き込みご飯弁当">
+                    <p class="name">炊き込みご飯弁当</p>
+                    <p class="price">&yen;<span>600</span> (税込)</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./img/bento_2.png" alt="しゃけ弁当">
+                    <p class="name">しゃけ弁当</p>
+                    <p class="price">&yen;<span>500</span> (税込)</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./img/bento_1.png" alt="サバコロッケ弁当">
+                    <p class="name">サバコロッケ弁当</p>
+                    <p class="price">&yen;<span>600</span> (税込)</p>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="./img/bento_2.png" alt="くまさん弁当">
+                    <p class="name">くまさん弁当</p>
+                    <p class="price">&yen;<span>600</span> (税込)</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="access">
+        <h2>アクセス</h2>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d421.7914055317625!2d139.74458879469185!3d35.704553885617926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x704ae77c5f56a182!2z44GY44Gq44KT44G8!5e0!3m2!1sja!2sjp!4v1599006295116!5m2!1sja!2sjp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+    <footer>
+        <p class="rights">Copyright &copy; Wakana All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
